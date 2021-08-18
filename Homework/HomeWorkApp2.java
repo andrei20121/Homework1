@@ -26,7 +26,7 @@ public class HomeWorkApp2 {
 
     }
     public static boolean myBool( int a, int b){
-        if(a + b >=10 && a + b < 20){
+        if(a + b >=10 && a + b <= 20){
            return true;
         } else{
             return false;
@@ -42,7 +42,7 @@ public class HomeWorkApp2 {
     }
 
     public static boolean myNegative( int d){
-        if( d <= 0){
+        if( d < 0){
             System.out.print("Мне вернулось отрицательное число, это: " + d + ", ");
             return true;
         } else {
