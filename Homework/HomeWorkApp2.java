@@ -23,7 +23,6 @@ public class HomeWorkApp2 {
         System.out.println(myYear( 100));
 
         System.out.println("**********FINISH*************");
-
     }
     public static boolean myBool( int a, int b){
         if(a + b >=10 && a + b < 20){
